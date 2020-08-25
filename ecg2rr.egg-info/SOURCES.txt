@@ -10,3 +10,9 @@ ecg2rr.egg-info/SOURCES.txt
 ecg2rr.egg-info/dependency_links.txt
 ecg2rr.egg-info/requires.txt
 ecg2rr.egg-info/top_level.txt
+ecg2rr/wfdb/__init__.py
+ecg2rr/wfdb/processing/__init__.py
+ecg2rr/wfdb/processing/basic.py
+ecg2rr/wfdb/processing/peaks.py
+ecg2rr/wfdb/processing/preprocessing.py
+ecg2rr/wfdb/processing/qrs.py

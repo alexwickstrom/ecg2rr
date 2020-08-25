@@ -18,7 +18,6 @@ from wfdb.processing import (
 )
 from random import uniform
 
-
 def get_beats(annotation):
     """
     Extract beat indices and types of the beats.
