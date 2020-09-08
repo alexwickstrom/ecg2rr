@@ -127,7 +127,10 @@ def correct_peaks(sig, peak_inds, search_radius, smooth_window_size,
     shifted_peak_inds : ndarray
         Array of the corrected peak indices.
     """
-    sig_len = sig.shape[0]
+    if isinstance(sig,list):
+        sig_len = len(sig)
+    else:
+        sig_len = sig.shape[0]
     n_peaks = len(peak_inds)
 
     # Subtract the smoothed signal from the original
